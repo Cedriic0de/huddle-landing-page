@@ -1,0 +1,202 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav{
+    padding-bottom: 5%;
+}
+h1, h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+.head-section{
+    background-color: hsl(193, 100%, 96%);
+    padding: 4% 6%;
+}
+.logo-section{
+    padding: 0 0;
+}
+
+/* Get Started Section */
+.content{
+    padding: 4% 0 4%;
+    margin: 0 auto;
+}
+.get-started{
+    margin: 0 auto;
+    padding: 8% 0;
+    text-align: left;
+}
+.big-heading{
+    margin: 8% 0 4%;
+}
+
+.content p {
+    font-size: 17.5px;
+    margin-bottom: 8%;
+}
+.content-right{
+    padding: 0 0 0 4%;
+    
+}
+.mockups-img {
+    width: 100%;
+    padding-top: 8%;
+}
+
+/* Grow Together Section */
+.grow-together{
+    padding: 10% 0 4%;
+    margin: 0 auto;
+    text-align: left;
+    /* border: 1px solid #df1818; */
+}
+.together-img{
+    width: 100%;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 25px 12px;
+     border-radius: 10px;
+     -webkit-box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+     -moz-box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+     box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+    /* CSSButtonGenerator.com
+     Boxshadow generator.com
+     fontawesome.com */
+
+    }
+
+/* Conversations Section */
+.conversations{
+    padding: 4% 0 4%;
+    margin: 0 auto;
+    text-align: left;
+    /* border: 1px solid #df1818; */
+}
+.conversations-img{
+    width: 100%;
+}
+
+/* Users Section */
+.users{
+    padding: 4% 0 14%;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+.users-img{
+    width: 100%;
+}
+
+/* Footer section */
+.footer{
+    background-color:hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 12% 5% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-wrapper{
+    margin-top: 24px;
+}
+
+.footer ul {
+    padding: 0;
+    display: block;
+}
+.footer li{
+    list-style: none;  
+}
+.icon{
+    width: 5%;
+    height: 5%;
+    padding: auto;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Start trial section */
+.start-trial{
+    
+    padding: 4% 0 4%;
+    margin: 0 auto;
+    /* */
+    position: relative;
+    
+}
+.start-trial-free{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 6% 0 4%;
+    max-width: 100%;
+    width: 600px;
+    margin-bottom: -14%; 
+    /* width: 600px; */
+    z-index: 1;
+      
+    -webkit-box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+    -moz-box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+    box-shadow: 0px 0px 40px -22px hsl(208, 11%, 55%);
+}
+.small-heading{
+    display: block;
+    margin-bottom: 38px;
+
+}
+
+/* Buttons */
+.btns {
+    background: hsl(322, 100%, 66%);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: none;
+    color: #ffffff;
+    padding: .5em 2em;
+    text-decoration: none;
+  }
+  
+.nav-link{
+    padding: auto 24px;
+}
+.get-started-btn{
+    text-align: center;
+}
+.btns:hover {
+    opacity: 0.6;
+    color:#fff;
+}
+
+/* Icons */
+.socials ul{
+    font-size: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-link{
+        display: none;
+    }
+    .get-started{
+        text-align: center;
+    }
+    .start-trial-free{
+        padding-bottom: 2px;
+    }
+    .footer-wrapper{
+       margin: 28px auto auto;
+    }
+}
